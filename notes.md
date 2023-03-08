@@ -162,14 +162,17 @@ See `--high-color` example in `styles.css`.
 See box-model.html and box-model.css for basic examples.
 See https://frontendmasters.github.io/bootcamp/layout for a wide range of very clear examples.
 
+*To blog about*:
+-   Box Model
+-   Floats and Clears
+-   Styling Navigation Bars
+-   Flexbox
+
 ### Further learning
 
 From https://frontendmasters.github.io/bootcamp/layout
 
     Box Model Types (Content vs. Border)
-    Floats and Clears
-    Styling Navigation Bars
-    Flexbox
 
 Forms...
 

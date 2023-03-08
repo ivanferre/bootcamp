@@ -11,6 +11,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Kavivanar', cursive;
     font-weight: normal;
 }
+
+h1 {
+    color: crimson;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 h2 {
     font-size: 2rem;
     color: #A51F10;
@@ -23,11 +32,104 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* header is the flex-parent,
+ * and both .left- and .rightheader the flex-children.
+ */
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+/* The logo to the left of the name and motto. */
+.leftheader {
+    float: left;
+    padding-right: 2rem;
+	flex-basis: 50%;
+    justify-content: right;
+}
+
+div.leftheader img {
+    float: right;
+}
+
+.rightheader {
+	flex-basis: 50%;
+}
+
+div.rightheader p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* Center the content in the overall container. */
+.wrapper {
+  margin: auto;
+  width: 70%;
+}
+
+/* The unordered list is the parent-flex. */
+nav ul {
+    clear: left;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+    list-style-type: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border-top: crimson solid 1px;
+    border-bottom: crimson solid 1px;
+}
+
+/* The items of the list are the children-flex. */
+nav li {
+	flex-basis: 25%;
+}
+
+article {
+    clear: left;
+}
+
+article img {
+    float: left;
+    margin-bottom: 3em;
+    margin-right: 2em;
+    border-top-left-radius: 1pc;
+    border-top-right-radius: 1pc;
+    border-bottom-left-radius: 1pc;
+    border-bottom-right-radius: 1pc;
+}
+
+
 .posted {
     font-size: 0.8rem;
     color: #89A611;
 }
 footer {
+    clear: left;
+    border-top: crimson;
+    border-top-style: double;
     text-align: center;
     font-size: 0.8rem;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+footer ul {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+    list-style-type: none;
+	flex-basis: 80%;
+}
+
+footer li {
+    padding-left: 0.5em;
+    padding-right: 0.5 em;
 }

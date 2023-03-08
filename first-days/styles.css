@@ -1,0 +1,47 @@
+/* Styles for the Book Excerpt */
+
+:root {
+    /* navy blue */
+    --high-color: #202A44  
+}
+
+h1, hr { color: var(--high-color); }
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-image: url("./pexels-miguel-á-padriñán-19670.jpg");
+}
+
+#bookref {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-size: medium;
+    font-style: normal;
+}
+
+.bookref cite {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+}
+
+blockquote { background-color: antiquewhite;
+}
+
+/* Remove numbering from ordered lists, and making them look like bulleted lists by inserting a dot symbol before the list items */
+ol {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li { 
+  padding-left: 16px; 
+}
+
+li::before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: var(--high-color); /* Or a color you prefer */
+}

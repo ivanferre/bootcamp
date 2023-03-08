@@ -1,0 +1,23 @@
+body {
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    padding-left: 1em;
+}
+
+.green {
+    background-color: green;
+    padding-left: 1rem;
+}
+
+.violet {
+    background-color: violet;
+    padding-left: 1%;
+}
+
+.crimson {
+    background-color: crimson;
+    padding-left: 1px;
+}

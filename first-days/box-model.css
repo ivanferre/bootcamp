@@ -1,0 +1,39 @@
+body {
+    border-style: double;
+    border-width: thick;
+    border-color: red;
+}
+
+div {
+    border-style: dotted;
+    border-width: thin;
+    border-color: blue;
+    padding: 1em;
+    margin: 2em;
+    background-color: blanchedalmond;
+}
+
+p {
+    border-color: aqua;
+    border-style: solid;
+    border-width: thin;
+    background-color: beige;
+    margin-left: 0em;
+}
+
+.positive-margin {
+    margin-left: 0.5em;
+}
+
+.negative-margin {
+    margin-left: -0.5em;
+}
+
+.borderradius2 {
+    border: 2px solid #42352c;
+    border-radius: 100px;
+}
+.box3 {
+  /* background-image: url(http://placekitten.com/200/300); */
+  height: 15rem;
+}

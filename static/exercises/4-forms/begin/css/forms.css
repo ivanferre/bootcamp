@@ -1,34 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-image: url("../img/galaxy.jpg");
 }
+
+h1, h2, legend {
+	font-family: 'Kavivanar', cursive;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+label {
+	display: block;
+	margin-top: 1em;
+}
+
+label.topone {
+	margin-top: 0;
+}
+
+label.ufo {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+input.submit {
+	margin-top: 1em;
+	padding: 1em;
+	background-color: coral;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	border-radius: 25%;
+}
+
+input.submit:hover {
+	color: coral;
+	background-color: white;
+}
+
+.mapa {
+	display: block;
+	border-style: solid;
+	border-radius: 2%;
+	border-color: black;
+	border-width: 1px;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	background-color: whitesmoke;
+}
+
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
-	padding: 1em;
+	padding: 2em;
 	display: flex;
 	flex-flow: row nowrap;
+	background-color: beige;
 }
 p {
-	margin-bottom: 0;
-	margin-top: 2rem;
+	margin-bottom: 2em;
+	margin-top: 0;
 }
+
+fieldset p {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
 section {
 	flex-basis: 57%;
 	margin-right: 10%;
 }
+
+fieldset {
+	margin-bottom: 2em;
+}
+
 aside {
 	flex-basis: 33%;
 }
 
+iframe {
+	margin-bottom: 1em;
+}
 
+address {
+	font-style: normal;
+}
 
 
 

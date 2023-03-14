@@ -12,3 +12,9 @@ luna.zip
 resources/
 *.zip
 
+.eslintrc.json
+.prettierrc
+package.json
+prettierrc.txt
+first-days/beauty-test.html
+.gitignore

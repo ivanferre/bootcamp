@@ -131,7 +131,9 @@ If you are using these pseudo-classes, they MUST go in the order listed.
 
 To remember: **Lord Vader Former Handle Anakin**
 
-Use the `::before` selector to insert something before the content, or `::after` to do it after the content.
+Use the `::before` selector to insert something before the content, or `::after` to do it after the content. This may be useful for decoration purposes, like showing an inline icon or special symbol, or for accessibility: to display tooltips when hovering, for instance.
+
+Full explanation and very good examples of [::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) and [::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) are in the MDN Web Docs pages.
 
 ### CSS Variables
 
@@ -171,6 +173,11 @@ See <https://frontendmasters.github.io/bootcamp/layout> for a wide range of very
 - Styling Navigation Bars
 - Flexbox
 
+
+### Embedding content
+
+Use the `iframe` element.
+
 ### Further learning
 
 From <https://frontendmasters.github.io/bootcamp/layout>
@@ -184,16 +191,27 @@ And many other topics in **w3schools**.
 
 ### CSS References
 
-InternetingIsHard.com
-
+- www.InternetingIsHard.com
 - Hello CSS <https://internetingishard.com/html-and-css/hello-css/>
 - CSS Selectors <https://internetingishard.com/html-and-css/css-selectors/>
 - Links and Images <https://internetingishard.com/html-and-css/links-and-images/>
+- Validating CSS: <http://jigsaw.w3.org/css-validator/>
+- Convert pixels to ems and %: <http://www.pxtoem.com/>
+- Color palettes, if you need help creating one: <http://color.adobe.com/>
+- Colorzilla, for choosing colors from your website: <http://www.colorzilla.com/>
+- Dive into HTML5 Forms <http://diveinto.html5doctor.com/forms.html>
+- Form reference <https://htmlreference.io/forms/>
+- Mozilla Developer Network HTML forms tutorial <https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms>
+- Mozilla Developer Network Tutorial: Your first HTML form <https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/YourfirstHTML_form>
+- InternetingIsHard.com Forms <https://internetingishard.com/html-and-css/forms>
+- InternetingIsHard.com Web Typography <https://internetingishard.com/html-and-css/web-typography/>
+- Google Fonts <http://fonts.google.com>
+- CSS Bootcamp: <https://frontendmasters.github.io/bootcamp/forms>
 
-**Validating CSS**: <http://jigsaw.w3.org/css-validator/>
+## GitHub
 
-**Convert pixels to ems and %**: <http://www.pxtoem.com/>
+We are following this page: <https://frontendmasters.github.io/bootcamp/github>.
 
-**Color palettes**, if you need help creating one: <http://color.adobe.com/>
 
-**Colorzilla**, for choosing colors from your website: <http://www.colorzilla.com/>
+
+

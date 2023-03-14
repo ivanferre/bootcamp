@@ -36,11 +36,11 @@ p           is a selector
 
 ### How to include CSS in HTML
 
-External stylesheet : attach a separate document in the <head> of your HTML.
+External stylesheet : attach a separate document in the head of your HTML.
 
     <link href="css/styles.css" rel="stylesheet" />
 
-Internal stylesheet or embedded stylesheet : Include styles in the <style> tag in the <head> of your HTML
+Internal stylesheet or embedded stylesheet : Include styles in the style tag in the head of your HTML
 
     <style>
         body {
@@ -92,12 +92,12 @@ Create a class and attach it to an HTML tag to make the class appear.
 
 Create an ID and attach it to an HTML tag to make the styling appear.
 
-<style>
-    #danger {
-        color: red;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
+    <style>
+        #danger {
+            color: red;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
     </style>
 
     <p id="danger">This text is uppercase, bold, and red, and you better pay attention because you're in danger only once on this web page!</p>

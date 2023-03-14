@@ -2,11 +2,11 @@
 
 ## HTML Resources
 
-https://frontendmasters.github.io/bootcamp/html
+<https://frontendmasters.github.io/bootcamp/html>
 
 HTML Elements Reference
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+<https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
 InternetingIsHard.com
 
@@ -20,7 +20,7 @@ InternetingIsHard.com
 
 Validating HTML
 
-http://validator.w3.org/
+<http://validator.w3.org/>
 
 ## CSS
 
@@ -56,10 +56,10 @@ Inline styles : occur in the HTML tag itself
 
 Four simple ways to include CSS in your document:
 
--   Elements: HTML tags as selectors
--   Classes
--   IDs
--   Descendant selector
+- Elements: HTML tags as selectors
+- Classes
+- IDs
+- Descendant selector
 
 #### Element Selectors
 
@@ -143,9 +143,9 @@ The syntax of the `var()` function is as follows:
 
     var(--name, value)
 
-    Value 	Description
-    name 	Required. The variable name. Must start with two dashes and is case sensitive.
-    value 	Optional. The fallback value. Used if the variable is not found.
+    Value  Description
+    name  Required. The variable name. Must start with two dashes and is case sensitive.
+    value  Optional. The fallback value. Used if the variable is not found.
 
 CSS variables can have a global or local scope.
 
@@ -160,40 +160,40 @@ See `--high-color` example in `styles.css`.
 ### Box Model
 
 See box-model.html and box-model.css for basic examples.
-See https://frontendmasters.github.io/bootcamp/layout for a wide range of very clear examples.
+See <https://frontendmasters.github.io/bootcamp/layout> for a wide range of very clear examples.
 
 *To blog about*:
--   Box Model
--   Floats and Clears
--   Styling Navigation Bars
--   Flexbox
+
+- Box Model
+- Floats and Clears
+    <https://codepen.io/vaniaschmied/pen/YzOrWKB>
+
+- Styling Navigation Bars
+- Flexbox
 
 ### Further learning
 
-From https://frontendmasters.github.io/bootcamp/layout
+From <https://frontendmasters.github.io/bootcamp/layout>
 
     Box Model Types (Content vs. Border)
 
 Forms...
 
-CSS Media Queries: https://www.w3schools.com/css/css3_mediaqueries.asp
+CSS Media Queries: <https://www.w3schools.com/css/css3_mediaqueries.asp>
 And many other topics in **w3schools**.
-
 
 ### CSS References
 
-**InternetingIsHard.com**
+InternetingIsHard.com
 
--    Hello CSS https://internetingishard.com/html-and-css/hello-css/
--    CSS Selectors https://internetingishard.com/html-and-css/css-selectors/
--    Links and Images https://internetingishard.com/html-and-css/links-and-images/
+- Hello CSS <https://internetingishard.com/html-and-css/hello-css/>
+- CSS Selectors <https://internetingishard.com/html-and-css/css-selectors/>
+- Links and Images <https://internetingishard.com/html-and-css/links-and-images/>
 
-**Validating CSS**: http://jigsaw.w3.org/css-validator/
+**Validating CSS**: <http://jigsaw.w3.org/css-validator/>
 
-**Convert pixels to ems and %**: http://www.pxtoem.com/
+**Convert pixels to ems and %**: <http://www.pxtoem.com/>
 
-**Color palettes**, if you need help creating one: http://color.adobe.com/
+**Color palettes**, if you need help creating one: <http://color.adobe.com/>
 
-**Colorzilla**, for choosing colors from your website: http://www.colorzilla.com/
-
-
+**Colorzilla**, for choosing colors from your website: <http://www.colorzilla.com/>
